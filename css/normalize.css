@@ -1,0 +1,26 @@
+@font-face {
+  font-style: normal;
+  font-weight: 100 900;
+  font-family: "Hanken Grotesk";
+  src: url("../fonts/HankenGrotesk-VariableFont_wght.ttf") format("truetype");
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Hanken Grotesk", "Helvetica", sans-serif;
+}
+
+/*# sourceMappingURL=normalize.css.map */

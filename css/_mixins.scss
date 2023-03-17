@@ -1,0 +1,7 @@
+$bp: ("dsk": "1440px", "mob": "800px");
+
+@mixin breakpoint($size) {
+  @media screen and (max-width: map-get($bp, $size)) {
+    @content;
+  }
+}
