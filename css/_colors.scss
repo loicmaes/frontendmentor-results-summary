@@ -1,19 +1,27 @@
 // Primary
-$light-red: 0, 100%, 67%;
-$orangey-yellow: 39, 100%, 56%;
-$green-teal: 166, 100%, 37%;
-$cobalt-blue: 234, 85%, 45%;
+$light-red: hsl(0, 100%, 67%);
+$o-light-red: hsla(0, 100%, 67%, .05);
+$orangey-yellow: hsl(39, 100%, 56%);
+$o-orangey-yellow: hsla(39, 100%, 56%, .05);
+$green-teal: hsl(166, 100%, 37%);
+$o-green-teal: hsla(166, 100%, 37%, .05);
+$cobalt-blue: hsl(234, 85%, 45%);
+$o-cobalt-blue: hsla(234, 85%, 45%, .05);
 
 // Gradients
-$g-l-slate-blue: 252, 100%, 67%;
-$g-l-royal-blue: 241, 81%, 54%;
-$g-violet-blue: 256, 72%, 46%;
-$g-persian-blue: 241, 72%, 46%;
-$grad-bg: $g-l-slate-blue, $g-l-royal-blue;
-$grad-card: $g-violet-blue, $g-persian-blue;
+$g-l-slate-blue: hsl(252, 100%, 67%);
+$g-l-royal-blue: hsl(241, 81%, 54%);
+$g-violet-blue: hsla(256, 72%, 46%, 1);
+$g-persian-blue: hsla(241, 72%, 46%, 0);
 
 // Neutral
-$white: 0, 0%, 100%;
-$pale-blue: 221, 100%, 96%;
-$light-lavender: 241, 100%, 89%;
-$dark-gray-blue: 224, 30%, 27%;
+$white: hsl(0, 0%, 100%);
+$o-white: hsl(0, 0%, 100%, .6);
+$o4-white: hsl(0, 0%, 100%, .4);
+$pale-blue: hsl(221, 100%, 96%);
+$light-lavender: hsl(241, 100%, 89%);
+$dark-gray-blue: hsl(224, 30%, 27%);
+$o-dark-gray-blue: hsla(224, 30%, 27%, .4);
+
+// Shadow
+$shadow-color: hsla(241, 100%, 89%, .25);

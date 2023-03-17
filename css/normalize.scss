@@ -11,10 +11,20 @@
   padding: 0;
   font: inherit;
   list-style: none;
+  background: none;
+  color: currentColor;
   text-decoration: none;
 }
 
 body {
+  width: 100%;
   font-size: 18px;
+  min-height: 100vh;
   font-family: "Hanken Grotesk", "Helvetica", sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
